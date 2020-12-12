@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+</html>
+<head>
+    <meta charset="utf-8">
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+</head>
+
+<body>
+    <div>   <! &nbsp - 1칸 띄어쓰기 / &ensp - 2칸 띄어쓰기 / &emsp : 3칸띄어쓰기 >
+        <h2>&nbsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;[ Crime occurance ]
+          &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+          &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;[ Arrest rate ]</h2>
+    </div>
+    <div>
+        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+        <input id='Crime_HIGH' type='checkbox' onchange="drawMap()">High crime  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+        <input id='Arrest_HIGH' type='checkbox' onchange="drawMap2()">High arrest
+    </div>
+    <div>
+        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+        <input id='Crime_LOW' type='checkbox' onchange="drawMap()">Low crime   &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+        &nbsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+        <input id='Arrest_LOW' type='checkbox' onchange="drawMap2()">Low arrest
+    </div>
+    <div class='map3'></div>
+    <script src='./src/map3.js'></script>
+
+</body>
+
+</html>

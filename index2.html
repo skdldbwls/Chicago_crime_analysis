@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+	<title> Chicago Crime </title>
+	<link rel="stylesheet" type="text/css" href="style.css"/>
+	<style>
+	@font-face {font-family:"HoonJumbomamboB"; src:url('HoonJumbomamboB.ttf');}
+	@font-face {font-family:"THE_Oegyeinseolmyeongseo"; src:url('THE_Oegyeinseolmyeongseo.ttf');}
+ body {border-color:white;}
+ img {border: none;}
+ .main {text-align: left; background-color: white; }
+ a {text-decoration: none; font-family:"HoonJumbomamboB"}
+
+ #hobby {vertical-align:center; text-align:center; background-color:#F6F6F6; border-radius:5px;
+		 font-size:20px; border:1/6px solid; border-color:#08088A; font-family:"HoonJumbomamboB"; color:#08088A;}
+
+ header {text-align:center;font-family:"HoonJumbomamboB";font-size:67px;padding:20px;background-color:#0B0B61;color:white; border-radius:5px;}
+ nav {text-align:center;display: block; width:8%; height: 1000px; display:block; background-color:#08088A; float:left; text-align:center; border-radius:5px; color:white}
+ nav a {padding: 10px; display:block; padding:13px; color:white; font-size:18px; text-align:center; font-family:"HoonJumbomamboB";}
+ nav a:hover {font-size:23px; font-weight:bolder;}
+
+ article {margin:0 0 10px 180px; background-color:#F6F6F6; border-radius: 0px;}
+ iframe {border:none;}
+ #button:hover {height:40px; width:40px;}
+ footer #copyright {float:left;}
+ footer #SNS {font-family:consolas; float:right;}
+ #name{font-family:"HoonJumbomamboB";font-size:30px;}
+
+	</style>
+</head>
+
+<body>
+<div class="main">
+
+  <header>
+		Chicago Crime
+	</header>
+
+  	<nav id="abc">
+			<a href="index2.html" title="home"><p id="hobby">HOME</p></a>
+			<br>
+  		<a href="time.html"  target="display_area" title="time_crime"><p> Crime distribution over time </p></a>
+			<a href="week.html" target="display_area" title="week_crime"><p> Crime distribution over day of weeks </p></a>
+			<a href="area_type_crime.html" target="display_area" title="area_type_crime"><p> Crime occurrence by district and crime type</p></a>
+  		<a href="total_crime_type.html" target="display_area" title="crime_type"><p> Analysis of characteristics by crime type </p></a>
+
+			<a href="area_crime.html" target="display_area" title="area_crime"><p> Crime occurrence by district area </p></a>
+			<a href="crime_arrest_interact.html" target="display_area" title="crime_arrest"><p> Crime & Arrest </p></a>
+  	</nav>
+  <article>
+    <iframe name="display_area" src="article.html" width="1700px" height="1000px">
+	</iframe>
+
+  </article>
+
+<footer>&copy; Data Science 17011730 이유진</footer>
+</div>
+</body>
+</html>
